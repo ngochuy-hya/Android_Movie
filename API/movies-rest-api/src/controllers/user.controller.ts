@@ -105,14 +105,14 @@ const sendEmail = async (to: string, subject: string, text: string) => {
       port: 587,
       secure: false, // Use TLS
       auth: {
-        user: "gamergaming20192019@gmail.com", // MAIL_USERNAME
+        user: "nguyenhuypm1@gmail.com", // MAIL_USERNAME
         pass: "whme wzrh sxxs chob", // MAIL_PASSWORD
       },
     });
 
     // Email options
     const mailOptions = {
-      from: '"Real Film" <gamergaming20192019@gmail.com>', // MAIL_FROM_ADDRESS and MAIL_FROM_NAME
+      from: '"Real Film" <nguyenhuypm1@gmail.com>', // MAIL_FROM_ADDRESS and MAIL_FROM_NAME
       to, // Recipient email
       subject, // Email subject
       text, // Email body

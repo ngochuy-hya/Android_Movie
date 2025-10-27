@@ -90,13 +90,13 @@ const sendEmail = (to, subject, text) => __awaiter(void 0, void 0, void 0, funct
             port: 587,
             secure: false,
             auth: {
-                user: "gamergaming20192019@gmail.com",
-                pass: "whme wzrh sxxs chob", // MAIL_PASSWORD
+                user: "nguyenhuypm1@gmail.com",
+                pass: "whme wzrh sxxs chob", 
             },
         });
         // Email options
         const mailOptions = {
-            from: '"Real Film" <gamergaming20192019@gmail.com>',
+            from: '"Real Film" <nguyenhuypm1@gmail.com>',
             to,
             subject,
             text, // Email body
